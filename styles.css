@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 920px; margin: 0 auto; padding: 24px; }
+h1 { margin: 0 0 12px; }
+.subtitle { color: #555; margin: 0 0 24px; }
+.btn { display: inline-block; padding: 10px 16px; text-decoration: none; border-radius: 8px; border: 1px solid #222; }
+.btn:hover { filter: brightness(0.95); }
+.btn.outline { background: transparent; }
+.actions { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+.note { margin-top: 8px; color: #666; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.card { border: 1px solid #e3e3e3; border-radius: 10px; overflow: hidden; background: #fff; }
+.card img { width: 100%; display: block; }
+.card-body { padding: 12px; }
+.caption { color: #333; min-height: 18px; }
+footer { margin-top: 40px; color: #777; }
